@@ -1,0 +1,8 @@
+<metadata>
+  <attr path="/api/package[@name='com.squareup.timessquare']" name="managedName">SquareUp.TimesSquare</attr>
+  
+  <attr path="/api/package[@name='com.squareup.timessquare']/class[@name='MonthCellDescriptor']" name="visibility">public</attr>
+  <!--<attr path="/api/package[@name='com.squareup.timessquare']/interface[@name='MonthView.Listener']" name="visibility">public</attr>-->
+  <!--<attr path="/api/package[@name='com.squareup.timessquare']/interface[@name='MonthView.Listener']/method[@name='handleClick']" name="visibility">public</attr>-->
+  <remove-node path="/api/package[@name='com.squareup.timessquare']/interface[@name='MonthView.Listener']" />
+</metadata>

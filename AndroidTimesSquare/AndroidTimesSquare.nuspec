@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>AndroidTimesSquare</id>
+        <version>1.6.0</version>
+        <title>TimesSquare for Xamarin Android</title>
+        <authors>jkolb</authors>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>C# wrapper for android-times-square from https://github.com/square/android-times-square</description>
+        <copyright>2015</copyright>
+    </metadata>
+    <files>
+        <file src="bin\Release\AndroidTimesSquare.dll" target="lib\MonoAndroid50\AndroidTimesSquare.dll" />
+        <file src="bin\Release\AndroidTimesSquare.pdb" target="lib\MonoAndroid50\AndroidTimesSquare.pdb" />
+		<file src="bin\Release\AndroidTimesSquare.xml" target="lib\MonoAndroid50\AndroidTimesSquare.xml" />
+    </files>
+</package>
